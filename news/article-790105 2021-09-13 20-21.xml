@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">790105</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/790105</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-13 20:21</datetime>
+  <title auto="true" type="str" verify="true">Хет-трик Дрейера принес "Рубину" крупную победу над "Уралом" в РПЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+    <tag type="str">РПЛ</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 13 сентября. INTERFAX.RU - Футболисты казанского "Рубина" со счетом 4:0 нанесли поражение екатеринбургскому "Уралу" в домашнем матче седьмого тура чемпионата Российской премьер-лиги. На 2-й, 80-й и 90+1 минутах в составе "Рубина" голы провел новичок команды Андерс Дрейер, на 13-й состоялся автогол футболиста "Урала" Артема Мамина. Победа позволила "Рубину" набрать 14 очков и подняться на четвертое место в турнирной таблице. "Урал" - на последнем, 16-м месте (2 балла).]]></text>
+</doc>

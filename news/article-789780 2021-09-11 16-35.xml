@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">789780</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789780</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-11 16:35</datetime>
+  <title auto="true" type="str" verify="true">"Локомотив" победил "Крылья Советов" в чемпионате России по футболу</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 11 сентября. INTERFAX.RU - Футболисты московского "Локомотива" со счетом 2:0 нанесли поражение самарским "Крыльям Советов" в матче седьмого тура чемпионата  Российской премьер-лиги.               Оба гола – на 59-й и 80-й минутах – провел Франсуа Камано.               "Локомотив" набрал 15 очков и вышел в единоличные лидеры в турнирной таблице чемпионата. "Крылья" - на 11-м месте, 7 баллов.]]></text>
+</doc>

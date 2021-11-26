@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">790058</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/790058</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-13 16:04</datetime>
+  <title auto="true" type="str" verify="true">"Бавария" поздравила Даниила Медведева с выигрышем US Open</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">теннис</tag>
+    <tag type="str">футбол</tag>
+    <tag type="str">Даниил Медведев</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 13 сентября. INTERFAX.RU -  Мюнхенский футбольный клуб "Бавария" поздравляет российского теннисиста Даниила Медведева с триумфом на Открытом чемпионате США (US Open).               "Поздравляем с победой на US Open, Даниил!" - говорится в твиттере клуба. В честь российского спортсмена "Бавария" выпустила футболку с фамилией Медведева, ранее обозначавшего свои симпатии к клубу, и номером 1 на спине. В финале US Open в ночь на 13 сентября по московскому времени вторая ракетка мира Медведев  победил  лидера мирового рейтинга серба Новака Джоковича. Таким образом, россиянин впервые выиграл турнир Большого шлема.]]></text>
+</doc>

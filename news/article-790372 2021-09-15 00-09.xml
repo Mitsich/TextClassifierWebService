@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">790372</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/790372</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-15 00:09</datetime>
+  <title auto="true" type="str" verify="true">"Бавария" разгромила "Барселону" в гостевом матче ЛЧ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+    <tag type="str">Лига чемпионов УЕФА</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 15 сентября. INTERFAX.RU - Немецкая "Бавария" забила три безответных мяча в ворота испанской "Барселоны" в матче первого тура группового этапа Лиги чемпионов УЕФА. На 34-й минуте встречи, прошедшей на поле "Барселоны", отличился Томас Мюллер. Во втором тайме – на 56-й и 85-й минутах – дубль оформил Роберт Левандовски. "Бавария" возглавила группу E (3 очка), "Барселона" стала аутсайдером квартета (0), между ними расположились португальская "Бенфика" и украинское "Динамо", сыгравшие со счетом 0:0 в Киеве; у них по 1 баллу.]]></text>
+</doc>

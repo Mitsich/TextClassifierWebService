@@ -1,0 +1,14 @@
+<doc>
+  <id auto="true" type="str" verify="true">792420</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792420</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-20 15:06</datetime>
+  <title auto="true" type="str" verify="true">В Стерлитамаке двое мужчин погибли после попытки согреть квартиру духовкой</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Башкирия</tag>
+    <tag type="str">МЧС</tag>
+    <tag type="str">Стерлитамак</tag>
+    <tag type="str">Газпром</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 20 сентября. INTERFAX.RU - В Стерлитамаке в многоквартирном доме на улице Дружбы в одной квартире нашли двух погибших, сообщили в МЧС Башкирии.  Причина их смерти не установлена. Квартиру пришлось вскрывать. "Предположительно, в квартире была включена горелка в духовом шкафу для обогрева помещения", - говорится в сообщении. Бригада ОАО "Газпром газораспределение Уфа" проверила квартиру и установила, что плита была исправна, утечки газа не было.]]></text>
+</doc>

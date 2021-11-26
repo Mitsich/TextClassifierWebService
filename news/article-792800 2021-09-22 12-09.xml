@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">792800</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792800</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 12:09</datetime>
+  <title auto="true" type="str" verify="true">В Иркутской области четверо пострадали в ДТП со школьным автобусом</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">МВД</tag>
+    <tag type="str">Иркутская область</tag>
+    <tag type="str">Кутулик</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - В Аларском районе Иркутской области на федеральной трассе Р-255 "Сибирь" столкнулись УАЗ и школьный автобус, пострадали четыре человека, сообщили в ГУ МВД по региону. ДТП произошло около 10:40 по московскому времени рядом с поселком Кутулик. Обстоятельства случившегося выясняются. В автобусе были водитель, двое взрослых и 18 детей. По данным МВД, помощь врачей потребовалась одному школьнику, двум сопровождающим и водителю УАЗа.]]></text>
+</doc>

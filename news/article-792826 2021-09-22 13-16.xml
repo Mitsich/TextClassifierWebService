@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792826</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/world/792826</source>
+  <category auto="true" type="str" verify="true">В мире</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 13:16</datetime>
+  <title auto="true" type="str" verify="true">Президента Чехии выписали из больницы</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Чехия</tag>
+    <tag type="str">Милош Земан</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - Президента Чехии Милоша Земана в среду выписали из больницы после полного обследования, сообщает Associated Press. 76-летнего Земана  госпитализировали  14 сентября. В больнице он прошел полное плановое обследование, отметили в его офисе. Компьютерная томография и анализы не выявили никаких серьезных проблем или заболеваний. В 2019 году чешского президента также госпитализировали на четыре дня для проведения обследования.]]></text>
+</doc>

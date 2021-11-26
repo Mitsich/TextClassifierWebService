@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">789982</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789982</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-13 10:35</datetime>
+  <title auto="true" type="str" verify="true">Медведев остался на втором месте рейтинга ATP после триумфа на US Open</title>
+  <description auto="true" type="str" verify="true">Рублев поднялся на пятое место рейтинга</description>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">теннис</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 13 сентября. INTERFAX.RU -  Российский теннисист Даниил Медведев сохранил вторую позицию в рейтинге Ассоциации теннисистов-профессионалов (ATP). В ночь на понедельник Медведев  выиграл  турнир Большого шлема US Open и набрал 2000 рейтинговых очков. Всего на его счету 10 780 баллов. Еще один россиянин Андрей Рублев, который на US Open дошел до третьего круга, поднялся на пятую строчку рейтинга, имея в активе 6130 очков. Для Рублева эта позиция является наивысшей за всю карьеру. Кроме того, в топ-100 находятся россияне Аслан Карацев (25, 2074) и Карен Хачанов (27, 1965). Лидирует в рейтинге серб Новак Джокович (12 133), уступивший Медведеву в финале US Open.]]></text>
+</doc>

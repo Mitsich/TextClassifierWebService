@@ -1,0 +1,14 @@
+<doc>
+  <id auto="true" type="str" verify="true">792745</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/world/792745</source>
+  <category auto="true" type="str" verify="true">В мире</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 06:46</datetime>
+  <title auto="true" type="str" verify="true">Коронавирус обнаружили у главы Минздрава Бразилии</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Бразилия</tag>
+    <tag type="str">коронавирус</tag>
+    <tag type="str">COVID-19</tag>
+    <tag type="str">Марсело Кейрога</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - Министр здравоохранения Бразилии Марсело Кейрога, сопровождавший президента Жаира Болсонару на Генассамблее ООН в Нью-Йорке, сообщил о положительном результате теста на COVID-19. "Сообщаю всем, что сегодня я получил положительный результат теста на COVID-19. Я буду помещен на карантин в США, согласно всем санитарным протоколам ", - написал Кейрога в своем твиттере. Глава Минздрава сообщил CNN Brasil, что он носил маску все время, пока находился в здании ООН. Согласно заявлению, представителей правительства Бразилии, у остальных членов делегации COVID-19 не обнаружен.]]></text>
+</doc>

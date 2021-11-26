@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">793493</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/793493</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-24 18:35</datetime>
+  <title auto="true" type="str" verify="true">Лукашенко приехал на отдых в Сочи</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Александр Лукашенко</tag>
+    <tag type="str">Белоруссия</tag>
+    <tag type="str">Сочи</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 24 сентября. INTERFAX.RU - Президент Белоруссии Александр Лукашенко в пятницу прибыл в Сочи с частным визитом, сообщил "Интерфаксу" информированный источник в пятницу. Он отметил, что резиденция белорусского президента находится в поселке Красная Поляна Адлерского района Сочи. "Сотрудники резиденции три дня готовились к встрече. Лукашенко приехал отдохнуть", - подчеркнул источник. Ранее сообщалось, что в поселке Красная Поляна находится Дом отдыха "Беларусь", который временно становится резиденцией Лукашенко.]]></text>
+</doc>

@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">791584</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/791584</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-15 20:01</datetime>
+  <title auto="true" type="str" verify="true">"Авангард" проиграл третий матч подряд в КХЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">хоккей</tag>
+    <tag type="str">КХЛ</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 15 сентября. INTERFAX.RU - Магнитогорский "Металлург" одержал победу над омским "Авангардом" в матче очередного тура регулярного чемпионата Континентальной хоккейной лиге. Результат встречи, прошедшей в Магнитогорске, – 7:4 (2:2, 3:2, 2:0) в пользу "Металлурга". Команды представляют Восточную конференцию. "Металлург", выигравший третий матч подряд, занимает второе место. В его активе 10 очков в шести матчах. "Авангард", для которого это поражение стало третьим подряд, находится на седьмой строчке. Действующий обладатель Кубка Гагарина набрал 6 баллов в шести встречах.]]></text>
+</doc>

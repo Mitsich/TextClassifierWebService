@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">792501</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792501</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-21 01:53</datetime>
+  <title auto="true" type="str" verify="true">Землетрясение магнитудой 5,9 произошло возле Курил</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Курильские острова</tag>
+    <tag type="str">Итуруп</tag>
+    <tag type="str">Горячие Ключи</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 21 сентября. INTERFAX.RU - Землетрясение магнитудой 5,9 зарегистрировано в Тихом океане возле Курильских островов Сахалинской области, сообщили "Интерфаксу" в Сахалинском филиале Единой геофизической службы РАН. Сейсмособытие произошло в 07:25 по сахалинскому времени (понедельник 23:05 мск) с эпицентром в 86 км юго-восточнее о. Симушир на глубине 59 км. "В поселке Горячие Ключи на острове Итуруп землетрясение ощутили силой до двух баллов", - сказал собеседник агентства. Он уточнил, что тревога цунами не объявлялась. Пострадавших нет.]]></text>
+</doc>

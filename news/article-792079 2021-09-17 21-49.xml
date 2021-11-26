@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">792079</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/792079</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-17 21:49</datetime>
+  <title auto="true" type="str" verify="true">Пеле поместили в реанимацию больницы в Сан-Паулу</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Пеле</tag>
+    <tag type="str">Бразилия</tag>
+    <tag type="str">Сан-Паулу</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 17 сентября. INTERFAX.RU - Легендарный бразильский футболист Пеле в пятницу вновь был госпитализирован: он поступил в отделение интенсивной терапии, сообщают бразильские СМИ. 80-летний Пеле находится в больнице имени Альберта Эйнштейна в городе Сан-Паулу. Ранее в сентябре ему сделали операцию  по удалению опухоли . 9 сентября он сообщил, что успешно восстанавливается. Пеле является единственным футболистом в истории, который выиграл со своей сборной три чемпионата мира в 1958, в 1962 и в 1970 годах.]]></text>
+</doc>

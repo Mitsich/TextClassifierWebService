@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">789025</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789025</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-07 21:45</datetime>
+  <title auto="true" type="str" verify="true">Россиянин Медведев вышел в полуфинал US Open</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">US Open</tag>
+    <tag type="str">Даниил Медведев</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 7 сентября. INTERFAX.RU - Российский теннисист Даниил Медведев одержал победу над представителем Нидерландов Ботиком ван де Зандшульпом в 1/4 финала турнира Большого шлема US Open. Встреча, продолжавшаяся 2 часа 22 минуты, завершилась с результатом 6:3, 6:0, 4:6, 7:5 в пользу Медведева. Медведев занимает вторую строчку в рейтинге Ассоциации теннисистов-профессионалов (ATP), ван де Зандшульп идет на 117-й позиции. В полуфинале Медведева ждет встреча с победителем матча между канадцем Феликсом Оже-Альяссимом (15) и испанцем Карлосом Алькарасом Гарфией (55).]]></text>
+</doc>

@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">791794</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/moscow/791794</source>
+  <category auto="true" type="str" verify="true">Москва</category>
+  <datetime auto="true" type="str" verify="true">2021-09-16 19:25</datetime>
+  <title auto="true" type="str" verify="true">Вестибюль станции метро "Курская" в Москве закроют с 17 сентября по 19 ноября</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Москва</tag>
+    <tag type="str">Московский метрополитен</tag>
+    <tag type="str">Курская</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 16 сентября. INTERFAX.RU - Ремонт трех эскалаторов приведет к закрытию вестибюля станции "Курская" Арбатско-Покровской линии московского метро с 17 сентября до 19 ноября, сообщили в департаменте транспорта и развития дорожно-транспортной инфраструктуры столицы. Для входа и выхода в город пассажирам предлагают пользоваться расположенным рядом объединенным вестибюлем станции "Курская" Кольцевой линии. В ведомстве рекомендуют планировать поездки заранее.]]></text>
+</doc>

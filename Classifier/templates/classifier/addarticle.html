@@ -1,0 +1,44 @@
+{% include 'classifier/header.html' %}
+
+ <div style="padding-top: 20px" class="container">
+  <div class="row">
+    <div class="col-sm-12">
+     <div id="content">
+        <h5> Форма добавлении статьи</h5>
+        <form>
+            <p>Ссылка на источник:</p><p hidden id="sourceError"></p>
+            <input class="form-control" style="width: 300px" type="url" id="source"/>
+            <p>Категория:</p>
+            <select class="form-control" style="width: 300px" id="category">
+                <option>Спорт</option>
+                <option>Наука и техника</option>
+                <option>Интернет и СМИ</option>
+                <option>Экономика</option>
+                <option>Культура</option>
+            </select>
+            <p>Дата публикации:</p><p hidden id="datetimeError"></p>
+            <input class="form-control" style="width: 300px" type="text" id="datetime"/>
+            <p>Заголовок:</p><p hidden id="titleError"></p>
+            <input  class="form-control" style="width: 300px" type="text" id="title"/>
+            <p>Описание:</p><p hidden id="descriptionError"></p>
+            <input class="form-control" style="width: 300px" type="text" id="description"/>
+            <p>Текст:</p><p hidden id="textError"></p>
+            <textarea class="form-control" cols="100" rows="15" id="text"></textarea>
+            <p>Теги:</p><p hidden id="tagsError"></p>
+            <input class="form-control" tyle="width: 300px" type="text" id="tags"/>
+        </form>
+
+        <button type="button" class="btn btn-outline-primary" onclick="addArticle()">Добавить статью</button>
+        <p id="resultAdd"></p>
+         <input type="button" class="btn btn-outline-primary" style="text-align: left;margin-bottom: 20px" type=button value="Назад" onClick="javascript:history.go(-1);">
+    </div>
+    </div>
+  </div>
+ </div>
+
+</body>
+
+
+
+  <script src="/static/functionsForCollection.js"></script>
+</html>

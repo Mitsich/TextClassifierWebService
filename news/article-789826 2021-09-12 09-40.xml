@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">789826</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/culture/789826</source>
+  <category auto="true" type="str" verify="true">Культура</category>
+  <datetime auto="true" type="str" verify="true">2021-09-12 09:40</datetime>
+  <title auto="true" type="str" verify="true">В Испании скончалась солистка поп-дуэта "Баккара"</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Испания</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 12 сентября. INTERFAX.RU - Испанская певица Мария Мендиола, известная по поп-группе 1980-х "Баккара" умерла в Мадриде в возрасте 69 лет,  сообщает  "Би-би-си". Мендиола и певица Майте Матеос объединились в дуэт в 1977 году, когда они обе были танцовщицами фламенко на острове Фуэртевентура. Сначала они исполняли песни других коллективов, а известность им принесла песня Yes Sir, I Can Boogie. Группа "Баккара" выступала на Евровидении в 1978 году, представляя Люксембург.]]></text>
+</doc>

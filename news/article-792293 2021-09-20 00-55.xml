@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">792293</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792293</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-20 00:55</datetime>
+  <title auto="true" type="str" verify="true">"Единая Россия" получает более 45% после подсчета 30% голосов</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">ЦИК РФ</tag>
+    <tag type="str">Госдума РФ</tag>
+    <tag type="str">Единая Россия</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 20 сентября. INTERFAX.RU - Партия "Единая Россия" набирает 45,10% голосов после обработки 30,48% протоколов,  сообщается  на сайте ЦИК РФ. КПРФ, по данным Центризбиркома, набирает 21,86%, ЛДПР - 8,36%, "Справедливая Россия - Патриоты - За правду" - 7,42%. Также, по текущим данным, в думу проходит партия "Новые Люди" с 6,35% голосов. Остальные партии на данный момент набирают менее 3%.]]></text>
+</doc>

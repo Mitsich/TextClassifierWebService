@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">789786</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789786</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-11 18:46</datetime>
+  <title auto="true" type="str" verify="true">Российский боксер Беспутин завоевал пояс WBC Peace, нокаутировав Пинтора</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">бокс</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 11 сентября. INTERFAX.RU - Российский боксер Александр Беспутин одержал победу над мексиканцем Маурисио Пинтором и завоевал пояс WBC Peace в полусреднем весе.               Поединок прошел в Красноярске в субботу, в пятом раунде россиянин отправил соперника в нокаут.               В итоге бывший регулярный чемпион WBA Беспутин стал обладателем пояса WBC Peace, что означает промежуточный титул Всемирного боксерского совета.               На счету 30-летнего Беспутина теперь 15 побед (11 – нокаутом) в 16 поединках, поражений нет. Ранее он был  лишен  чемпионского пояса Всемирной боксерской ассоциации (WBA) за нарушение антидопинговых правил.]]></text>
+</doc>

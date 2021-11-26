@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">792318</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792318</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-20 07:11</datetime>
+  <title auto="true" type="str" verify="true">Голосование на выборах в Госдуму РФ завершилось во всем мире</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Госдума РФ</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 20 сентября. INTERFAX.RU - Голосование на выборах в Государственную думу закончилось во всех странах мира, сообщает телеканал "Россия 24" (ВГТРК). По словам ведущей эфира телеканала, к 7:00 по московскому времени закрылся последний участок, на котором проходили выборы, - в канадском Ванкувере. На территории России последние избирательные участки  закрылись  в 21:00 в Калининградской области, но на большей части РФ голосование, проходившее с 17 по 19 сентября,  завершилось  в 20:00. В настоящее время идет подсчет голосов,  лидирует  "Единая Россия".]]></text>
+</doc>

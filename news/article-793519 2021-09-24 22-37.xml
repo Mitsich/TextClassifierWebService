@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">793519</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/793519</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-24 22:37</datetime>
+  <title auto="true" type="str" verify="true">"Спартак" в овертайме обыграл "Нефтехимик" в матче КХЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Спартак</tag>
+    <tag type="str">Нефтехимик</tag>
+    <tag type="str">хоккей</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 24 сентября. INTERFAX.RU - Московский "Спартак" нанес поражение "Нефтехимику" в выездном матче регулярного чемпионата Континентальной хоккейной лиги (КХЛ). Поединок, состоявшийся в Нижнекамске в пятницу, завершился в дополнительное время со счетом 2:3 ОТ (0:1, 2:1, 0:0, 0:1). Решающую шайбу на 65-й минуте забросил нападающий "красно-белых" Максим Цыплаков.]]></text>
+</doc>

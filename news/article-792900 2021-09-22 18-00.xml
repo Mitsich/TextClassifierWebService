@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">792900</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/business/792900</source>
+  <category auto="true" type="str" verify="true">Экономика</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 18:00</datetime>
+  <title auto="true" type="str" verify="true">Производство золота в РФ в январе-июле сократилось на 1,3% до 174 т</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Минфин РФ</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - Производство золота в России в январе-июле 2021 года составило 173,99 тонны. Об этом сообщил Минфин со ссылкой на данные о поставках сырья на российские аффинажные заводы. Это на 1,3% меньше показателя аналогичного периода прошлого года (176,3 тонны). В том числе производство добычного золота сократилось на 2,8%, до 145,88 тонны, попутного – на 8%, до 9,01 тонны, вторичного – выросло на 16,4%, до 19,1 тонны. Производство серебра в России в январе-июле увеличилось на 2%, до 524,28 тонны.]]></text>
+</doc>

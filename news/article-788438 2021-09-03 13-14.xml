@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">788438</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/788438</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-03 13:14</datetime>
+  <title auto="true" type="str" verify="true">Россиянин Макаров выиграл бронзу Паралимпиады в плавании</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Паралимпиада-2020</tag>
+    <tag type="str">Токио</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 3 сентября. INTERFAX.RU - Россиянин Роман Макаров занял третье место в заплыве на 100 метров вольным стилем среди спортсменов с нарушением зрения на Паралимпийских играх в Токио. Макаров завершил заплыв за 58,65 секунд. Победителем стал азербайджанец Роман Салей (57,81 секунд). "Серебро" у британца Стивена Клегга (57,87). Всего в активе российских спортсменов 104 медали, среди которых 33 золотых, 28 серебряных и 43 бронзовых.]]></text>
+</doc>

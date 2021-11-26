@@ -1,0 +1,77 @@
+﻿{% include 'classifier/header.html' %}
+
+<div class="container">
+  <div style="padding-top: 20px" class="row">
+    <div class="col-sm-4">
+       <div>
+        <h4>Фильтр</h4>
+        <form id="formFilter">
+            <p>Категория</p>
+            <select class="form-control" id="categoryFilter">
+                <option></option>
+                <option>Спорт</option>
+                <option>Наука и техника</option>
+                <option>Интернет и СМИ</option>
+                <option>Экономика</option>
+                <option>Культура</option>
+            </select>
+            <p>Дата публикации с: </p><p hidden id="dateStartFilterError"></p>
+            <input class="form-control" type="date" id="dateStartFilter" />
+            <p>Дата публикации по: </p><p hidden id="dateEndFilterError"></p>
+            <input class="form-control" type="date" id="dateEndFilter" />
+            <p>Сортировка</p><p hidden id="sortFilterError"></p>
+            <select class="form-control" id="sortFilter">
+                <option></option>
+                <option>Время публикации</option>
+                <option>Категория</option>
+            </select>
+            <p>Тип сортировки</p><p hidden id="sortTypeFilterError"></p>
+            <select class="form-control" id="sortTypeFilter">
+                <option></option>
+                <option>По возрастанию</option>
+                <option>По убыванию</option>
+            </select>
+            <p>Кол-во элементов на странице</p>
+            <select class="form-control" id="pageLimitFilter" value="10">
+                <option>10</option>
+                <option>20</option>
+                <option>50</option>
+                <option>100</option>
+            </select>
+        </form>
+            <button type="button" onclick="showArticlesOnPage(1,null)" class="btn btn-primary">Найти</button>
+
+           <br>
+            <div style="text-align: center;margin-top: 10px" id="countElements">
+
+    </div>
+    </div>
+    </div>
+    <div  class="col-sm-8">
+
+        <h4 style="text-align: center">Новостные статьи</h4>
+
+    <div id="articlesPreview">
+
+    </div>
+
+    <div  style="text-align: center" id="pagesElements">
+
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <hr />
+
+
+    <script src="/static/functionsForCollection.js"></script>
+
+    <script defer>
+        showArticlesOnPage(1, null);
+    </script>
+</body>
+</html>

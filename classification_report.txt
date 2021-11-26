@@ -1,0 +1,13 @@
+*****Classifier Information******
+The accuracy of the classifier: 0.947
+                 precision    recall  f1-score   support
+
+Sport                0.94      0.88      0.90       610
+Culture              0.96      0.97      0.96       591
+Internet and media   0.96      0.96      0.96       584
+Science and tech.    0.94      0.98      0.96       626
+Economy              0.95      0.95      0.95       589
+
+accuracy                                 0.95      3000
+macro avg            0.95      0.95      0.95      3000
+weighted avg         0.95      0.95      0.95      3000

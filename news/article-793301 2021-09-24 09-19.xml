@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">793301</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/business/793301</source>
+  <category auto="true" type="str" verify="true">Экономика</category>
+  <datetime auto="true" type="str" verify="true">2021-09-24 09:19</datetime>
+  <title auto="true" type="str" verify="true">Twitter разрешил перечислять авторам "чаевые" в криптовалюте</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Twitter</tag>
+    <tag type="str">США</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 24 сентября. INTERFAX.RU - Сервис микроблогов Twitter  объявил , что вводит общедоступную функцию, которая позволит удобно пересылать "чаевые" (пожертвования, или донаты) любимым авторам, в том числе в криптовалюте. Получателям этих пожертвований предлагагается разместить кнопку "Tips" в своем профайле рядом с кнопкой "Follow" и соединить ее со своими кошельками на Cash App, Patreon, Venmo или других платформах, в которые принимаются донаты. Отправить биткойны можно с помощью платежного приложения Strike. Пока  эта функция будет доступна пользователям iOS старше 18 лет, версию для Android компания обещает выкатить в ближайшие недели. Брать процент с операций Twitter не будет.]]></text>
+</doc>

@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792425</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792425</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-20 15:13</datetime>
+  <title auto="true" type="str" verify="true">ЦИК РФ оценил явку на выборы в 51,68%</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">ЦИК РФ</tag>
+    <tag type="str">Элла Памфилова</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 20 сентября. INTERFAX.RU - Выборы в Российской Федерации состоялись, явка по итогам подсчета 98,5% протоколов составила 51,68%, заявила в понедельник глава ЦИК РФ Элла Памфилова. "Выборы состоялись, явка - сейчас до конца не подведены итоги, осталось совсем немножко, 98,58% сейчас (обработано - ИФ), явка 51,68% - выше, чем в прошлую кампанию", - сказала Памфилова на брифинге в Центризбиркоме.]]></text>
+</doc>

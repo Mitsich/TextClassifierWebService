@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792849</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/moscow/792849</source>
+  <category auto="true" type="str" verify="true">Москва</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 14:27</datetime>
+  <title auto="true" type="str" verify="true">Рост заболеваемости COVID-19 в Москве за неделю составил 24%</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Москва</tag>
+    <tag type="str">коронавирус</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - В Москве фиксируют рост заболеваемости COVID-19 на протяжении последней недели, причиной являются сезонные факторы, сообщила заммэра столицы Анастасия Ракова. "По отношению к прошлой неделе рост составил 24%, а госпитализации выросли на 15%", - сказала Ракова. Она добавила, что причиной является наступление осеннего сезона, для которого характерны подъем заболеваемости ОРВИ и резкое увеличение числа контактов, связанное с массовым возвращением горожан из отпусков и с дач, с возобновлением школьных занятий.]]></text>
+</doc>

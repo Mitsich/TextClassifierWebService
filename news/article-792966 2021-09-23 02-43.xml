@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792966</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792966</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-23 02:43</datetime>
+  <title auto="true" type="str" verify="true">Пожар площадью 3 тыс. кв. метров произошел на складе в Подмосковье</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Подмосковье</tag>
+    <tag type="str">Черноголовка</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 23 сентября. INTERFAX.RU - Крупный пожар охватил склад в подмосковной Черноголовке, площадь горения достигла 3 тыс. кв. метров, сообщает пресс-служба регионального ГУ МЧС. Отмечается, что пострадавших в результате пожара нет. Существует угроза распространения на офисное трехэтажное здание. Уточняется, что горит одноэтажное помещение ангарного типа площадью 3,6 тыс. кв. метров и высотой 15 метров. Сообщение о пожаре поступило поздним вечером в среду. Для ликвидации возгорания задействовано 43 человека и 14 единиц техники.]]></text>
+</doc>

@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792112</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/moscow/792112</source>
+  <category auto="true" type="str" verify="true">Москва</category>
+  <datetime auto="true" type="str" verify="true">2021-09-18 10:34</datetime>
+  <title auto="true" type="str" verify="true">Явка на выборах в Подмосковье на 8:00 превысила 12%</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Подмосковье</tag>
+    <tag type="str">Московская область</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 18 сентября. INTERFAX.RU - Более 900 тыс. жителей Подмосковья приняли участие в голосовании на выборах в Государственную и Московскую областную Думу, сообщил в субботу председатель Мособлизбиркома Илья Березкин. "По результатам первого дня явка стала более 12%", - сказал он журналистам. Всего в Подмосковье 5,8 млн избирателей. Выборы в Государственную и Московскую областную Думы пройдут 17, 18 и 19 сентября. Также проводятся семь избирательных кампаний в муниципальные советы депутатов.]]></text>
+</doc>

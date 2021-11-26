@@ -1,0 +1,14 @@
+<doc>
+  <id auto="true" type="str" verify="true">792333</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792333</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-20 09:10</datetime>
+  <title auto="true" type="str" verify="true">В ДТП с грузовиками в Свердловской области погиб человек</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Свердловская область</tag>
+    <tag type="str">ГИБДД</tag>
+    <tag type="str">Екатеринбург</tag>
+    <tag type="str">Пермь</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 20 сентября. INTERFAX.RU - В Свердловской области на 246-м километре трассе Пермь-Екатеринбург столкнулись два грузовика с прицепами, один человек погиб и два пострадали, сообщили в региональном управлении ГИБДД. По предварительном данным, водитель "КАМАЗа" с полуприцепом "Тонар" выехал на встречную полосу и столкнулся с грузовиком Scania с полуприцепом "Шмитц". 54-летний водитель Scania погиб на месте. Его 30-летнего пассажира доставили в больницу. Водитель "КАМАЗа" находится в коме в реанимации.]]></text>
+</doc>

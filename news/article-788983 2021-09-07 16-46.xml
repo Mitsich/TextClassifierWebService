@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">788983</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/788983</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-07 16:46</datetime>
+  <title auto="true" type="str" verify="true">Российские клубы потратили летом на покупку футболистов $84,9 млн</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 7 сентября. INTERFAX.RU - Сумма средств, потраченных российскими футбольными клубами на приобретение новых игроков прошедшим летом, составила $84,9 млн, говорится в отчете, опубликованном на сайте ФИФА. По этому показателю Россия занимает в списке седьмое место. Во главе списка находится Англия, клубы Английской премьер-лиги потратили на покупку новых футболистов $1 млрд 146,6 млн. В первую тройку также входят Италия ($473,8 млн) и Франция ($428,9 млн).]]></text>
+</doc>

@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">789800</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789800</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-11 21:11</datetime>
+  <title auto="true" type="str" verify="true">"Спартак" победил "Химки" в чемпионате России по футболу</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 11 сентября. INTERFAX.RU - Футболисты московского "Спартака" со счетом 3:1 нанесли поражение подмосковным "Химкам" в матче седьмого тура чемпионата Российской премьер-лиги.               Голы в составе победителей провели Айртон (25-я минута), Квинси Промес (48) и Эсекьель Понсе (68).               "Химки" ответили голом экс-капитана "Спартака" Дениса Глушакова (89).               Благодаря этой победе, "Спартак" набрал 10 очков и поднялся на шестое место в турнирной таблице. "Химки" находятся на 12-м месте, 6 очков.]]></text>
+</doc>

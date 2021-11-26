@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">793520</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/793520</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-24 22:39</datetime>
+  <title auto="true" type="str" verify="true">"Адмирал" потерпел восьмое поражение в сезоне КХЛ, уступив "Ак Барсу"</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Хоккей</tag>
+    <tag type="str">Адмирал</tag>
+    <tag type="str">Ак Барс</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 24 сентября. INTERFAX.RU - Владивостокский "Адмирал" проиграл в Казани "Ак Барсу" в выездном матче регулярного чемпионата Континентальной хоккейной лиги (КХЛ). Победитель определился в серии буллитов. Итоговый счет - 2:1 Б (0:0, 1:1, 0:0, 0:0, 1:0). Решающую шайбу забросил нападающий казанцев Николай Коваленко. "Ак Барс" выиграл четвертый раз кряду. Вернувшийся в КХЛ "Адмирал" в новом сезоне в девяти играх одержал одну победу.]]></text>
+</doc>

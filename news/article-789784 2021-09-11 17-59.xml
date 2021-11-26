@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">789784</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789784</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-11 17:59</datetime>
+  <title auto="true" type="str" verify="true">Роналду забил первый гол за МЮ после возвращения</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+    <tag type="str">Криштиану Роналду</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 11 сентября. INTERFAX.RU - Португальский футболист Криштиану Роналду забил мяч в ворота "Ньюкасла" в первом матче после возвращения в "Манчестер Юнайтед". В компенсированное к первому тайму время в матче четвертого тура Роналду поразил ворота на добивании после того, как мяч отразил вратарь. Этот гол вывел "Манчестер Юнайтед" вперед, счет стал 1:0 в пользу МЮ. 27 августа стало известно, что 36-летний  Роналду возвращается в "Манчестер Юнайтед" , цвета которого он защищал в период с 2003 по 2009 годы. Из МЮ Роналду переходил мадридский "Реал", а оттуда в 2018 году - в "Ювентус".]]></text>
+</doc>

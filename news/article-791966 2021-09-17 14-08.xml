@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">791966</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/moscow/791966</source>
+  <category auto="true" type="str" verify="true">Москва</category>
+  <datetime auto="true" type="str" verify="true">2021-09-17 14:08</datetime>
+  <title auto="true" type="str" verify="true">В Москве решили проблему оплаты парковки через смс с номеров "Билайна"</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Москва</tag>
+    <tag type="str">Билайн</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 17 сентября. INTERFAX.RU - Функция пополнения счета за парковку в Москве с помощью смс вновь доступна абонентам "Билайна", сообщили в департаменте транспорта и развития дорожно-транспортной инфраструктуры столицы. "Абоненты "Билайн" снова могут пополнять парковочный счет через СМС", - говорится в сообщении Ранее в пятницу сообщалось, что у абонентов этого оператора по техническим причинам на стороне "Билайна" могли возникать сложности при пополнении парковочного счета через СМС.]]></text>
+</doc>

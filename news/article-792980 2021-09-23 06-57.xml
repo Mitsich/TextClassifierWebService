@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">792980</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792980</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-23 06:57</datetime>
+  <title auto="true" type="str" verify="true">Самолет Ан-3 пропал в Туве</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Тува</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 23 сентября. INTERFAX.RU - Диспетчеры в Туве не могут установить местонахождение самолета Ан-3, сообщил "Интерфаксу" источник в авиадиспетчерских службах. "Самолет Ан-3 пропал на территории Тез-Хемского района", - сказал источник. По предварительным данным, самолет проводил техническую съемку местности.]]></text>
+</doc>

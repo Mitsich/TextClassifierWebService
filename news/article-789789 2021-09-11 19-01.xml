@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">789789</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789789</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-11 19:01</datetime>
+  <title auto="true" type="str" verify="true">"Зенит" победил "Ахмат" и вернулся в лидеры РПЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+    <tag type="str">РПЛ</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 11 сентября. INTERFAX.RU - Футболисты петербургского "Зенит" со счетом 3:1 нанесли поражение грозненскому "Ахмату" в домашнем матче седьмого тура чемпионата Российской премьер-лиги. В составе "Зенита" голы провели Вендел (9-я минута), Александр Ерохтин (33) и Малком (83). В составе "Ахмата" отличился Мохамед Конате (51). "Зенит" набрал 17 очков и вернулся на первое место в турнирной таблице. "Ахмат" - на восьмом месте (9 баллов).]]></text>
+</doc>

@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">789488</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/culture/789488</source>
+  <category auto="true" type="str" verify="true">Культура</category>
+  <datetime auto="true" type="str" verify="true">2021-09-10 03:45</datetime>
+  <title auto="true" type="str" verify="true">Вышел первый трейлер фильма "Матрица: Воскрешение"</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Warner Bros.</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 10 сентября. INTERFAX.RU - Кинокомпания Warner Bros. опубликовала первый трейлер фильма "Матрица 4: Воскрешение" в YouTube. Режиссёром выступила Лана Вачовски. Роли в фильме исполнили Киану Ривз, Кэрри-Энн Мосс, Джада Пинкетт-Смит, Нил Патрик Харрис и Кристина Риччи. Премьера "Матрицы" в кинотеатрах планируется на 22 декабря 2021 года. Ранее  вышел тизер  фильма "Матрица: Воскрешение".]]></text>
+</doc>

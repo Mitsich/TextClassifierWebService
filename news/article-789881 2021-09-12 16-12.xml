@@ -1,0 +1,14 @@
+<doc>
+  <id auto="true" type="str" verify="true">789881</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789881</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-12 16:12</datetime>
+  <title auto="true" type="str" verify="true">ЦСКА сыграл вничью с тульским "Арсеналом" в 7-м туре РПЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+    <tag type="str">РПЛ</tag>
+    <tag type="str">ЦСКА</tag>
+    <tag type="str">Арсенал</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 12 сентября. INTERFAX.RU - Тульский "Арсенал" дома сыграл вничью с московским ЦСКА 2:2 в матче седьмого тура Российской премьер-лиги. В составе "Арсенала" голы забили Евгений Марков (18-я минута) и Иван Новосельцев (66). За ЦСКА отличились Игорь Дивеев (5) и Фёдор Чалов (74). ЦСКА занимает шестую строчку в таблице чемпионата, набрав 10 очков. "Арсенал" на 15-й позиции, имея в активе 5 баллов. В восьмом туре ЦСКА встретится с московским "Спартаком", матч пройдёт 20 сентября. "Арсенал" днем ранее сыграет с "Нижним Новгородом".]]></text>
+</doc>

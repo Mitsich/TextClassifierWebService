@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792000</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/792000</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-17 14:47</datetime>
+  <title auto="true" type="str" verify="true">Программу зимних ОИ-2026 захотели расширить снежным регби</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Олимпийские игры</tag>
+    <tag type="str">регби</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 17 сентября. INTERFAX.RU - Программа зимних Олимпийских игр 2026 года в Италии может быть расширена за счет включения снежного регби, заявил председатель Высшего совета Федерации регби России Игорь Артемьев. "Организаторы Игр в Милане и Кортина Д'Ампеццо обратились к МОК с просьбой включить снежное регби в программу Олимпиады", - сказал Артемьев на отчетно-выборной конференции в пятницу. В 2019 году мужская и женская сборные России по снежному регби стали победителями чемпионата Европы.]]></text>
+</doc>

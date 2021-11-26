@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">792725</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792725</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 04:00</datetime>
+  <title auto="true" type="str" verify="true">Три человека погибли при пожаре в многоэтажке в Ставрополе</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Ставрополь</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - Возгорание произошло в одной из квартир десятиэтажного жилого дома в Ставрополе, есть погибшие, сообщила в среду пресс-служба краевого главка МЧС. "В 1:35 мск произошел пожар в квартире на последнем этаже десятиэтажного жилого дома по улице Тухачевского, 15. Входную дверь пришлось вскрывать. Обнаружены тела трех погибших. Их личности устанавливаются", - говорится в сообщении. Отмечается, что на время тушения пожара из дома было эвакуировано 20 человек. На данный момент возгорание ликвидировано.]]></text>
+</doc>

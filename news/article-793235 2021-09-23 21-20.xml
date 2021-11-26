@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">793235</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/793235</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-23 21:20</datetime>
+  <title auto="true" type="str" verify="true">Источник сообщил о жесткой посадке вертолета Ка-27 на Камчатке</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Камчатка</tag>
+    <tag type="str">Ка-27</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 23 сентября. INTERFAX.RU - Вертолет Ка-27 жестко сел на Камчатке, сообщил "Интерфаксу" источник в авиадиспетчерских службах. "Вертолет Ка-27, по предварительным данным, совершил жесткую посадку в районе горы Острая. На борту - до пяти человек", - сказал он. О судьбе экипажа ему ничего не известно.]]></text>
+</doc>

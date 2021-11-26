@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792598</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792598</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-21 14:30</datetime>
+  <title auto="true" type="str" verify="true">Мужчина пригрозил взорвать дома в татарстанском Альметьевске</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Татарстан</tag>
+    <tag type="str">Альметьевск</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 21 сентября. INTERFAX.RU - Правоохранительные органы Альметьевска (Татарстан) проверяют информацию после поступившего сообщения об угрозах взрыва дома. "Информацию поверяем. Известно, что мужчина пришёл домой пьяный и якобы угрожает взорвать", - сообщили "Интерфаксу" в МВД Татарстана. Другой информации не приводится.]]></text>
+</doc>

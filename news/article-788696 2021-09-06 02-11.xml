@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">788696</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/788696</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-06 02:11</datetime>
+  <title auto="true" type="str" verify="true">Медведев вышел в четвертьфинал US Open</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">теннис</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 6 сентября. INTERFAX.RU - Российский теннисист Даниил Медведев победил американца Даниэла Эванса в матче четвертого круга турнира Большого шлема US Open. Результат встречи – 6:3, 6:4, 6:3 в пользу россиянина, ее продолжительность составила 1 час 45 минут. В настоящий момент Медведев является второй ракеткой мира, Эванс – 27-й. Соперником Медведева в 1/4 финала будет 117-я ракетка мира нидерландец Ботик ван де Зандсхулп.]]></text>
+</doc>

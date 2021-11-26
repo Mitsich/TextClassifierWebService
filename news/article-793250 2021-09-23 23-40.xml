@@ -1,0 +1,15 @@
+<doc>
+  <id auto="true" type="str" verify="true">793250</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/world/793250</source>
+  <category auto="true" type="str" verify="true">В мире</category>
+  <datetime auto="true" type="str" verify="true">2021-09-23 23:40</datetime>
+  <title auto="true" type="str" verify="true">Лавров встретился на полях Генассамблеи ООН с главой МИД Франции Ле Дрианом</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">ООН</tag>
+    <tag type="str">Сергей Лавров</tag>
+    <tag type="str">Россия</tag>
+    <tag type="str">Франция</tag>
+    <tag type="str">Жан-Ив Ле Дриан</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 23 сентября. INTERFAX.RU - Глава МИД РФ Сергей Лавров провел на полях 76-й сессии Генеральной Ассамблеи ООН встречу с французским коллегой Жан-Ивом Ле Дрианом. Министры тепло поприветствовали друг друга и обменялись рукопожатием, далее беседа продолжилась без прессы. Ранее Ле Дриан заявил, что намерен обсудить с Лавровым ситуацию в Афганистане и на Украине, а также иранскую ядерную сделку. Лавров прибыл в Нью-Йорк в среду, у российского министра уже состоялось более десятка встреч с зарубежными коллегами.]]></text>
+</doc>

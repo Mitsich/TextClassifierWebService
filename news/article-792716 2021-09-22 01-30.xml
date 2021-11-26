@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">792716</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792716</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 01:30</datetime>
+  <title auto="true" type="str" verify="true">Землетрясение магнитудой 4,2 произошло вблизи Южных Курил</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Южные Курилы</tag>
+    <tag type="str">Сахалинская область</tag>
+    <tag type="str">Тихий океан</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - Землетрясение магнитудой 4,2 произошло в Тихом океане в среду возле Южных Курил Сахалинской области, сообщили "Интерфаксу" в Сахалинском филиале Единой геофизической службы РАН. Землетрясение зарегистрировано в 06:33 местного времени (во вторник 22:33 мск) с эпицентром в 61 км восточнее села Головнино (о. Кунашир) на глубине 64 км. "В селе Малокурильское (о. Шикотан) сейсмическое событие ощутили силой до двух баллов", - сказал собеседник агентства. Тревога цунами не объявлялась, никто не пострадал.]]></text>
+</doc>

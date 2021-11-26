@@ -1,0 +1,13 @@
+<doc>
+  <id auto="true" type="str" verify="true">789692</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789692</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-11 00:28</datetime>
+  <title auto="true" type="str" verify="true">Медведев вышел в финал US Open</title>
+  <description auto="true" type="str" verify="true">Это будет его третий финал на турнирах Большого шлема</description>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">теннис</tag>
+    <tag type="str">US Open</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 11 сентября. INTERFAX.RU - Российский теннисист Даниил Медведев стал финалистом турнира Большого шлема US Open-2021.               В полуфинале соревнования он нанес поражение представителю Канады Феликсу Оже-Альяссиму – 6:4, 7:5, 6:2. Продолжительность матча составила 2 часа 3 минуты.               Медведев в рейтинге Ассоциации теннисистов-профессионалов (ATP) занимает второе место, Оже-Альяссим – 15-е.               Медведев в третий раз в карьере становится финалистом турнира Большого шлема. В решающем матче US Open-2019 он уступил испанцу Рафаэлю Надалю, в финале Australian Open-2021 – сербу Новаку Джоковичу.               В финале нынешнего Открытого чемпионата США Медведев сыграет с победителем пары Джокович (номер 1 в мировом рейтинге) – Александр Зверев (Германия, 4).]]></text>
+</doc>

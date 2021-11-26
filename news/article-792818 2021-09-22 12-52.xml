@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">792818</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/792818</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-22 12:52</datetime>
+  <title auto="true" type="str" verify="true">Ан-26 с экипажем из шести человек пропал под Хабаровском</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Ан-26</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 22 сентября. INTERFAX.RU - Самолет Ан-26 не выходит на связь под Хабаровском, на радарах его также нет, сообщил "Интерфаксу" источник в авиадиспетчерских службах. "Самолет Ан-26 проводил технический полет в 40 километрах от Хабаровска, однако внезапно перестал выходить на связь и с радаров пропал", - сказал источник. На борту самолета экипаж из шести человек.]]></text>
+</doc>

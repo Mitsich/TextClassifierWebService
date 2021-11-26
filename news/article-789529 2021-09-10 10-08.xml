@@ -1,0 +1,11 @@
+<doc>
+  <id auto="true" type="str" verify="true">789529</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/789529</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-10 10:08</datetime>
+  <title auto="true" type="str" verify="true">Месси побил рекорд Пеле по числу голов за сборную в Южной Америке</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 10 сентября. INTERFAX.RU - Нападающий сборной Аргентины по футболу Лионель Месси забил все три мяча в составе своей национальной команды в отборочном матче ЧМ-2022 против Боливии. Встреча, прошедшая в Аргентине, завершилась со счетом 3:0 в пользу хозяев. Забив второй мяч, Месси довел число своих точных ударов в карьере за сборную до 78 и побил рекорд по количеству голов за сборную представляющую Южную Америку. Автором предыдущего высшего достижения был бразилец Пеле (77 голов). По итогам матча с Боливией у Месси теперь на счету 79 голов.]]></text>
+</doc>

@@ -1,0 +1,45 @@
+﻿{% include 'classifier/header.html' %}
+
+    <div style="padding-top: 25px">
+        <div style="text-align: center">
+            <h4>Классификатор текста</h4>
+        </div>
+
+        <div style="text-align: center" class="form-group">
+            <label for="exampleFormControlTextarea1">Введите текст для классификации</label>
+            <textarea  style="display: block;margin-left: auto;margin-right: auto;width: 800px" class="form-control"
+                       id="textForClassifier" rows="15"></textarea>
+        </div>
+
+    </div>
+
+
+    <div style="text-align: center">
+        <button type="button" onclick="classify()" class="btn btn-primary">Классифицировать</button>
+
+    </div>
+<br>
+
+    <div style="text-align: center">
+        <p hidden id="textForClassifierError"></p>
+        <p id="resultOfClassifier"></p>
+
+
+       <p>Данные по классификатору: <a href="/api/info-classifier" class="link-primary">Клик</a></p>
+
+    </div>
+
+
+
+
+
+
+    <script src="/static/functionsForClassifier.js"></script>
+
+    <script defer type="text/javascript">
+        recordInformationClassifierToTables();
+    </script>
+
+</body>
+</html>
+

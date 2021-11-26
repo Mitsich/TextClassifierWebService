@@ -1,0 +1,14 @@
+<doc>
+  <id auto="true" type="str" verify="true">793500</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/793500</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-24 18:48</datetime>
+  <title auto="true" type="str" verify="true">Губернатор Подмосковья отказался от мандата депутата Госдумы</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Московская область</tag>
+    <tag type="str">Андрей Воробьев</tag>
+    <tag type="str">Единая Россия</tag>
+    <tag type="str">Госдума</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 24 сентября. INTERFAX.RU - Губернатор Московской области Андрей Воробьев, возглавлявший список "Единой России" на выборах в регионе, отказался от мандата депутата Госдумы, сообщили "Интерфаксу" в пресс-службе губернатора и правительства региона. Воробьев остается на занимаемой должности, сообщил собеседник агентства. 19 июня подмосковный губернатор возглавил  список "Единой России"  на выборах в Государственную думу по Московской области. Список был оглашен на XX съезде партии.]]></text>
+</doc>

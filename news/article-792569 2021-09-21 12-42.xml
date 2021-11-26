@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">792569</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/business/792569</source>
+  <category auto="true" type="str" verify="true">Экономика</category>
+  <datetime auto="true" type="str" verify="true">2021-09-21 12:42</datetime>
+  <title auto="true" type="str" verify="true">Минэкономразвития уточнило прогноз по среднему курсу рубля на 2021 год</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Минэкономразвития</tag>
+    <tag type="str">Алексей Херсонцев</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 21 сентября. INTERFAX.RU - Минэкономразвития уточнило прогноз по среднегодовому курсу рубля к доллару на 2021 год. В обновленной редакции макропрогноза он составляет 73,6 рубля за доллар, сообщил замглавы ведомства Алексей Херсонцев на расширенном заседании комитета Совета Федерации по экономической политике во вторник. В прежней версии макропрогноза среднегодовой курс рубля в 2021 году оценивался на уровне 72,8 руб./$1.]]></text>
+</doc>

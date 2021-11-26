@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">788587</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/788587</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-04 09:33</datetime>
+  <title auto="true" type="str" verify="true">Двукратная победительница US Open Осака выбыла из турнира</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">теннис</tag>
+    <tag type="str">US Open</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 4 сентября. INTERFAX.RU - Японская теннисистка Наоми Осака потерпела поражение от канадки Лейлы Фернандес в третьем круге турнира Большого шлема US Open.               Результат встречи – 5:7, 7:6 (7:2), 6:4 в пользу Фернандес.               Осака является третьей ракеткой мира, Фернандес – 73-е.               Таким образом, Японка сенсационно выбывает из дальнейшей борьбы.               Экс-первая ракетка мира Осака по два раза выигрывала US Open и Australian Open.]]></text>
+</doc>

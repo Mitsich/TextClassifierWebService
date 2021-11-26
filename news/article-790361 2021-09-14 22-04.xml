@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">790361</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/790361</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-14 22:04</datetime>
+  <title auto="true" type="str" verify="true">СКА победил "Спартак" в КХЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">хоккей</tag>
+    <tag type="str">КХЛ</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 14 сентября. INTERFAX.RU - Хоккеисты петербургского СКА одержали победу над московским "Спартаком" в матче очередного тура регулярного чемпионата Континентальной хоккейной лиги.               Результат встречи, прошедшей в Москве, - 2:0 (0:0, 2:0, 0:0) в пользу гостей. Точные броски в их составе нанесли Антон Бурдасов и Кирилл Марченко.               Обе команды представляют Западную конференцию КХЛ, они набрали по 8 очков в 6 матчах. Вместе с финским "Йокеритом" и московским ЦСКА они составляют пелотон, идущий следом за лидирующим "Динамо" (10 очков в пяти матчах).]]></text>
+</doc>

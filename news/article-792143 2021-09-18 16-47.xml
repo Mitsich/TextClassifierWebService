@@ -1,0 +1,14 @@
+<doc>
+  <id auto="true" type="str" verify="true">792143</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/792143</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-18 16:47</datetime>
+  <title auto="true" type="str" verify="true">ФК "Химки" проиграл "Уфе" в матче РПЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">футбол</tag>
+    <tag type="str">РПЛ</tag>
+    <tag type="str">Химки</tag>
+    <tag type="str">Уфа</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 18 сентября. INTERFAX.RU - Подмосковный футбольный клуб "Химки" на выезде уступил "Уфе" в матче восьмого тура Тинькофф - Российская премьер-лига (РПЛ). Поединок, состоявшийся в субботу в столице Башкирии, завершился со счетом 3:2. За гостей дважды отличился экс-спартаковец Денис Глушаков. Сначала он забил на 44-й минуте, а на 89-й реализовал пенальти. За "Уфу" дублем отметился Гамид Агаларов (52 и 82 минуты), также гол на счету Владислава Камилова (62). В турнирной таблице РПЛ "Химки" занимают 14-е место с шестью очками. "Уфа" набрала восемь баллов и находится на 11-й строчке.]]></text>
+</doc>

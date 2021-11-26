@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">791672</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/moscow/791672</source>
+  <category auto="true" type="str" verify="true">Москва</category>
+  <datetime auto="true" type="str" verify="true">2021-09-16 11:12</datetime>
+  <title auto="true" type="str" verify="true">Отопление в Москве включили в 90% жилых домов</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Петр Бирюков</tag>
+    <tag type="str">Москва</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 16 сентября. INTERFAX.RU - По состоянию на 10:00 четверга тепло подается в 90% жилых домов и 95% социальных объектов столицы, сообщил заместитель мэра Москвы Петр Бирюков журналистам. "По указанию мэра Москвы отопительный сезон в столице  стартовал в понедельник, 13 сентября . Запуск тепла происходит поэтапно, на это требуется до пяти суток", - рассказал Бирюков. Он добавил, что первыми отопление получают социальные объекты, жилые дома и офисные здания, затем - предприятия торговли и промышленности.]]></text>
+</doc>

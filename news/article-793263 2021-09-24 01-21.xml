@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">793263</id>
+  <source auto="true" type="str" verify="true">https://www.interfax.ru/russia/793263</source>
+  <category auto="true" type="str" verify="true">В России</category>
+  <datetime auto="true" type="str" verify="true">2021-09-24 01:21</datetime>
+  <title auto="true" type="str" verify="true">На Камчатке нашли обломки вертолета Ка-27</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">Камчатка</tag>
+    <tag type="str">Ка-27</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 24 сентября. INTERFAX.RU - Обломки пропавшего на Камчатке вертолета обнаружены на горе Острой в Елизовском районе, сообщил "Интерфаксу" информированный источник. "Обломки обнаружены в районе горы. О судьбе людей, находившихся на борту вертолета, пока ничего не известно", - сказал источник. Ранее источник в авиадиспетчерских службах сообщил "Интерфаксу", что вертолет Ка-27  жестко сел  на Камчатке. На его борту  могли быть  три человека.]]></text>
+</doc>

@@ -1,0 +1,12 @@
+<doc>
+  <id auto="true" type="str" verify="true">791787</id>
+  <source auto="true" type="str" verify="true">https://www.sport-interfax.ru/791787</source>
+  <category auto="true" type="str" verify="true">Спорт</category>
+  <datetime auto="true" type="str" verify="true">2021-09-16 18:31</datetime>
+  <title auto="true" type="str" verify="true">Московское "Динамо" выиграло шестой матч подряд в КХЛ</title>
+  <tags auto="true" type="list" verify="true">
+    <tag type="str">хоккей</tag>
+    <tag type="str">КХЛ</tag>
+  </tags>
+  <text auto="true" type="str" verify="true"><![CDATA[Москва. 16 сентября. INTERFAX.RU - Хоккеисты московского "Динамо" нанесли поражение новосибирской "Сибири" в матче очередного тура регулярного чемпионата Континентальной хоккейной лиги.               Результат встречи, прошедшей в Новосибирске, - 5:4 (1:0, 3:0, 1:4) в пользу "Динамо". Московский клуб вел с разницей в пять шайб, позволил сопернику сократить отставание до минимума, но все же удержал победный счет.               Начиная со старта чемпионата, "Динамо" выиграло все шесть матчей, набрало 12 очков и лидирует в Западной конференции КХЛ. У "Сибири" 3 очка в шести матчах и 10-е место в Восточной конференции.]]></text>
+</doc>
