@@ -212,19 +212,19 @@ async function addArticle()
 
         if (response.ok)
         {
-            elemResultAdd.textContent = "Новостная статья добавлена";
+            elemResultAdd.textContent = "Новостная статья добавлена.";
         }
         else
         {
-            elemResultAdd.textContent = "Новостная статья не добавилась. Попробуйте ещё раз";
+            elemResultAdd.textContent = "Новостная статья добавлена.";
         }
     }
 }
 
 function generatePageElementStr(page, text, data)
 {
-    let elemStr = "<button type=\"button\" class=\"btn btn-outline-primary\" style='margin-left: 20px' onclick='showArticlesOnPage(" + page.toString() + "," + JSON.stringify(data) + ")'>" + text + "</button>";
-    return elemStr;
+   let elemStr = "<button type=\"button\" class=\"btn btn-outline-primary\" style='margin-left: 20px' onclick='showArticlesOnPage(" + page.toString() + "," + JSON.stringify(data) + ")'>" + text + "</button>";
+   return elemStr;
 }
 
 function generatePagesButton(page, pageLimit, countArticles, data)
@@ -312,7 +312,7 @@ async function showArticlesOnPage(page, data)
             if ((new Date(dateStart)).getTime() > (new Date("9999-12-29")).getTime() || (new Date(dateStart)).getTime() < (new Date("0001-01-01")).getTime())
             {
                 elemDateStartError.hidden = false;
-                elemDateStartError.textContent = "Диапозон нарушен.";
+                elemDateStartError.textContent = "Дата вышла из доп устимого диапазона";
                 flagSuccess = false;
             }
         }
@@ -322,7 +322,7 @@ async function showArticlesOnPage(page, data)
             if ((new Date(dateEnd)).getTime() > (new Date("9999-12-29")).getTime() || (new Date(dateEnd)).getTime() < (new Date("0001-01-01")).getTime())
             {
                 elemDateEndError.hidden = false;
-                elemDateEndError.textContent = "Диапозон нарушен.";
+                elemDateEndError.textContent = "Дата вышла из допустимого диапазона";
                 flagSuccess = false;
             }
         }
@@ -358,14 +358,14 @@ async function showArticlesOnPage(page, data)
         if (sort != '' && sortType == '')
         {
             elemSortTypeError.hidden = false;
-            elemSortTypeError.textContent = "Вы не выбрали направление сортировки.";
+            elemSortTypeError.textContent = "Необходимо выбрать направление сортировки";
             flagSuccess = false;
         }
 
         if (sort == '' && sortType != '')
         {
             elemSortError.hidden = false;
-            elemSortError.textContent = "Вы не выбрали поле для сортировки.";
+            elemSortError.textContent = "Необходимо выбрать поле для сортировки";
             flagSuccess = false;
         }
 
@@ -439,7 +439,7 @@ async function showArticlesOnPage(page, data)
             }
             else
             {
-                elemGetResult.textContent = "Не удалось обработать запрос. Попробуйте еще раз.";
+                elemGetResult.textContent = "Не удалось получить новостные статьи. Попробуйте ещё раз";
             }
         }
 
@@ -491,7 +491,7 @@ async function showArticlesOnPage(page, data)
         }
         else
         {
-            elemGetResult.textContent = "Не удалось обработать запрос. Попробуйте еще раз.";
+            elemGetResult.textContent = "Не удалось получить новостные статьи. Попробуйте ещё раз";
         }
     }
 }
@@ -503,8 +503,8 @@ function showArticlesPreview(articlesInformation, elemLen, elemArticles)
 
     for (let i = 0; i < articlesInformation.articles.length; i++)
     {
-        articlesStr = articlesStr + "<div style='margin-bottom: 5px;border-radius: 15px; background-color: #F0F8FF;' class=\"border border-4\" class=\"border border-primary\"'><a style='margin-left: 10px' href='/articles/" + articlesInformation.articles[i]["id"].toString() + "'>Новостная статья №" + articlesInformation.articles[i]["id"].toString() + "</a>";
-        articlesStr = articlesStr + "<p style='margin-left: 10px'>Заголовок: " + articlesInformation.articles[i]["title"] + "</p>";
+        articlesStr = articlesStr + "<div style='margin-bottom: 10px;border-radius: 13px; background-color: #F0F8FF;' class=\"border border-5\" class=\"border border-primary\"'><a style='margin-left: 10px;font-size: 17px' href='/articles/" + articlesInformation.articles[i]["id"].toString() + "'>Новостная статья №" + articlesInformation.articles[i]["id"].toString() + "</a>";
+        articlesStr = articlesStr + "<h6 style='margin-left: 10px'>Заголовок: " + articlesInformation.articles[i]["title"] + "</h6>";
         articlesStr = articlesStr + "<p style='margin-left: 10px'>Дата публикации: " + articlesInformation.articles[i]["datetime"] + "</p>";
         if (articlesInformation.articles[i]["description"] !== 'None')
         {

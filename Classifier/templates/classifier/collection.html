@@ -1,7 +1,12 @@
 ﻿{% include 'classifier/header.html' %}
 
+<main>
+<div class="alert alert-warning" role="alert">
+  Чтобы использовать фильтр, выберите категорию нужных вам статей или воспользуйтесь поиском по датам публикации. Выберите тип сортировки и нажмите кнопку найти.
+</div>
+
 <div class="container">
-  <div style="padding-top: 20px" class="row">
+  <div id="container_collection" class="row">
     <div class="col-sm-4">
        <div>
         <h4>Фильтр</h4>
@@ -42,36 +47,42 @@
             <button type="button" onclick="showArticlesOnPage(1,null)" class="btn btn-primary">Найти</button>
 
            <br>
-            <div style="text-align: center;margin-top: 10px" id="countElements">
+            <div class="count_elem"  id="countElements">
 
     </div>
     </div>
     </div>
     <div  class="col-sm-8">
 
-        <h4 style="text-align: center">Новостные статьи</h4>
+        <h4 id="header_collection">Новостные статьи</h4>
 
     <div id="articlesPreview">
 
     </div>
 
-    <div  style="text-align: center" id="pagesElements">
+    <div class = "pages_elem" id="pagesElements">
 
     </div>
     </div>
   </div>
 </div>
 
+   <div>
+        <p id="resultAdd"></p>
+   </div>
+
+</main>
+
+
+    <script src="/static/functionsForCollection.js"></script>
+    <script defer>
+        showArticlesOnPage(1, null);
+    </script>
 
 
 
     <hr />
 
 
-    <script src="/static/functionsForCollection.js"></script>
-
-    <script defer>
-        showArticlesOnPage(1, null);
-    </script>
 </body>
 </html>

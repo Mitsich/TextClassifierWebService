@@ -144,7 +144,7 @@ def checkJsonForFilter(data):
     if jsonForFilter["category"] is not None:
         if isinstance(jsonForFilter["category"], str):
             if jsonForFilter["category"]:
-                listOfCategory = ["Интернет и СМИ", "Наука и техника", "Экономика", "Спорт", "Культура", "Москва"]
+                listOfCategory = ["Интернет и СМИ", "Наука и техника", "Экономика", "Спорт", "Культура"]
                 if not (jsonForFilter["category"] in listOfCategory):
                     return False
             else:
@@ -154,6 +154,8 @@ def checkJsonForFilter(data):
 
     if jsonForFilter["dateStart"] is None and jsonForFilter["dateEnd"] is not None or jsonForFilter["dateStart"] is not None and jsonForFilter["dateEnd"] is None:
         return False
+
+
 
     if jsonForFilter["dateStart"] is not None and jsonForFilter["dateEnd"] is not None:
         if isinstance(jsonForFilter["dateStart"], str) and isinstance(jsonForFilter["dateEnd"], str):

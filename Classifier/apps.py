@@ -9,8 +9,6 @@ file = open(settings.BASE_DIR + directory + nameFile, "rb")
 fileDestination = pickle.load(file)
 
 
-
-
 class ClassifierConfig(AppConfig):
     name = 'Classifier'
 

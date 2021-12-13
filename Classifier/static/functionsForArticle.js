@@ -5,7 +5,7 @@ function getArticleId() {
 
 async function deleteArticle() {
     let articleId = getArticleId();
-    let urlForFetch = '/api/deletearticles/' + articleId.toString();
+    let urlForFetch = '/api/articles/' + articleId.toString();
     let elemContent = document.getElementById("content");
     let elemDeleteError = document.getElementById("deleteError");
 
@@ -65,13 +65,13 @@ async function updateArticle() {
             let regExpSource = /^(?:(?:https?|ftp|telnet):\/\/(?:[a-z0-9_-]{1,32}(?::[a-z0-9_-]{1,32})?@)?)?(?:(?:[a-z0-9-]{1,128}\.)+(?:com|net|org|mil|edu|arpa|ru|gov|biz|info|aero|inc|name|[a-z]{2})|(?!0)(?:(?!0[^.]|255)[0-9]{1,3}\.){3}(?!0|255)[0-9]{1,3})(?:\/[a-z0-9.,_@%&?+=\~\/-]*)?(?:#[^ \'\"&<>]*)?$/i;
             if (!regExpSource.test(source)) {
                 elemSourceError.hidden = false;
-                elemSourceError.textContent = "Недопустимая ссылка.";
+                elemSourceError.textContent = "Это не ссылка";
                 flagSuccess = false;
             }
         }
         else {
             elemSourceError.hidden = false;
-            elemSourceError.textContent = "Переполнение поля.";
+            elemSourceError.textContent = "Поле переполнено. Макс кол-во символов - 200";
             flagSuccess = false;
         }
     }
@@ -242,7 +242,7 @@ async function showArticle() {
     if (response.ok) {
         let articleInformation = await response.json();
 
-        elemArticleId.textContent = "Статья № " + articleId.toString();
+        elemArticleId.textContent = "№ " + articleId.toString();
         elemSource.value = articleInformation["source"];
         elemCategory.value = articleInformation["category"];
         elemDatetime.value = articleInformation["datetime"].slice(0, 16);

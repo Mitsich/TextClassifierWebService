@@ -2,6 +2,7 @@ from Classifier.models import Articles, Tags
 from datetime import datetime
 from datetime import timedelta
 
+
 def articlesFilter(category, dateStart, dateEnd, sort, sortType, page, pageLimit):
     filterResult = {}
     filterResult["articles"] = []
@@ -9,7 +10,8 @@ def articlesFilter(category, dateStart, dateEnd, sort, sortType, page, pageLimit
     if category is not None:
         querySet = querySet.filter(category=category)
     if dateStart is not None and dateEnd is not None:
-        querySet = querySet.filter(datetime__range=(dateStart, (datetime.strptime(dateEnd, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")))
+        querySet = querySet.filter(datetime__range=(
+        dateStart, (datetime.strptime(dateEnd, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")))
     if sort is not None and sortType is not None:
         if sortType == "asc":
             querySet = querySet.order_by(sort)
@@ -28,7 +30,7 @@ def articlesFilter(category, dateStart, dateEnd, sort, sortType, page, pageLimit
         else:
             return False
         querySet = querySet[startElement:endElement]
-    
+
     for article in querySet:
         articleDict = {}
         articleDict["id"] = article.id
@@ -40,6 +42,7 @@ def articlesFilter(category, dateStart, dateEnd, sort, sortType, page, pageLimit
         filterResult["articles"].append(articleDict)
     return filterResult
 
+
 def getArticle(id):
     try:
         articleObject = Articles.objects.get(pk=id)
@@ -49,7 +52,7 @@ def getArticle(id):
         if queryTags.exists():
             for tag in queryTags:
                 tags.append(tag.name)
-    
+
         articleDict["source"] = articleObject.source
         articleDict["category"] = articleObject.category
         articleDict["datetime"] = str(articleObject.datetime)
@@ -61,10 +64,12 @@ def getArticle(id):
     except Articles.DoesNotExist:
         return False
 
+
 def updateArticle(id, sourceNew, categoryNew, datetimeNew, titleNew, descriptionNew, textNew, tagsNew):
     queryArticle = Articles.objects.filter(pk=id)
     if queryArticle.exists():
-        queryArticle.update(source=sourceNew, category=categoryNew, datetime=datetimeNew, title=titleNew, description=descriptionNew, text=textNew)
+        queryArticle.update(source=sourceNew, category=categoryNew, datetime=datetimeNew, title=titleNew,
+                            description=descriptionNew, text=textNew)
         articleObject = Articles.objects.get(pk=id)
         queryTags = Tags.objects.filter(article=id)
         if queryTags.exists():
@@ -77,6 +82,7 @@ def updateArticle(id, sourceNew, categoryNew, datetimeNew, titleNew, description
         return True
     else:
         return False
+
 
 def addArticle(source, category, datetime, title, description, text, tags):
     articleObject = Articles()
@@ -93,6 +99,7 @@ def addArticle(source, category, datetime, title, description, text, tags):
         tagObject.article = articleObject
         tagObject.name = tagName
         tagObject.save()
+
 
 def deleteArticle(id):
     queryArticle = Articles.objects.filter(pk=id)

@@ -1,0 +1,43 @@
+{% include 'classifier/header.html' %}
+
+<div style = "margin-left: 20px; margin-top: 20px; width: 600px" >
+        <h3>Форма добавлении статьи</h3>
+        <form  id="articleAdd">
+            <p>Ссылка на статью</p><p hidden id="sourceAddError"></p>
+            <input class="form-control" type="url" id="sourceAdd"/>
+            <p>Категория</p><p hidden id="categoryAddError"></p>
+            <select class="form-control" id="categoryAdd">
+                <option>Спорт</option>
+                <option>Наука и техника</option>
+                <option>Интернет и СМИ</option>
+                <option>Экономика</option>
+                <option>Культура</option>
+            </select>
+            <p>Дата публикации</p><p hidden id="datetimeAddError"></p>
+            <input class="form-control" type="datetime" id="datetimeAdd" placeholder="yyyy-mm-dd HH:MM"/>
+            <p>Заголовок</p><p hidden id="titleAddError"></p>
+            <input class="form-control" type="text" id="titleAdd"/>
+            <p>Описание</p><p hidden id="descriptionAddError"></p>
+            <input class="form-control" type="text" id="descriptionAdd"/>
+            <p>Текст статьи</p><p hidden id="textAddError"></p>
+            <textarea class="form-control" cols="100" rows="8" id="textAdd"></textarea>
+            <p>Теги</p><p hidden id="tagsAddError"></p>
+            <input class="form-control" type="text" id="tagsAdd"/>
+        </form>
+        <button   class="btn btn-primary" onclick="addArticle()">Добавить статью</button>
+        <p id="resultAdd"></p>
+    </div>
+
+
+
+
+
+    <hr />
+</body>
+ <script src="/static/functionsForCollection.js"></script>
+
+    <script defer>
+        showArticlesOnPage(1, null);
+    </script>
+</html>
+

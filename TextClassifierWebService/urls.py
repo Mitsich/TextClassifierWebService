@@ -14,20 +14,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf.urls import include, url
-from Classifier import Controller
+from Classifier import entryPoints
 from Classifier import views
 
 urlpatterns = [
     url(r'^$', views.index),
+    url(r'^contact$',views.contact),
     url(r'^collection$', views.collection),
-    url(r'^addarticle$', views.addarticle,name='add-article'),
     url(r'^articles/[0-9]+', views.article),
-    url(r'^deletearticles/[0-9]+', views.deleterticle),
-    url(r'^api/updatedb$', Controller.updateDB),
-    url(r'^api/articles/(?P<articleId>[0-9]+)$', Controller.articleOperations),
-    url(r'^api/articles$', Controller.articlesAdd),
-    url(r'^api/articles/filter$', Controller.articlesFilterOperation),
-    url(r'^api/classifier/fit$', Controller.classifierFit),
-    url(r'^api/classifier$', Controller.classifierCore),
-    url(r'^api/info-classifier$', views.read_file, name='info-classifier')
+    url(r'^collection/add_article$', views.addarticle),
+    url(r'^api/articles/(?P<articleId>[0-9]+)$', entryPoints.articleOperations),
+    url(r'^api/articles$', entryPoints.articlesAdd),
+    url(r'^delete$', views.delete),
+    url(r'^api/articles/filter$', entryPoints.articlesFilterOperation),
+    url(r'^api/classifier$', entryPoints.classifierEntryPoint),
+    url(r'^api/info-classifier$',views.infoclassifier)
 ]

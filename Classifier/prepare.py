@@ -44,7 +44,7 @@ def updateOrSaveNew(fields):
             tag.save()
             
 def newsFilesToBD():
-    newsFilesName = os.listdir(settings.BASE_DIR + "\\news")
+    newsFilesName = os.listdir(settings.BASE_DIR + "\\news") #поменять на news
 
     for fileName in newsFilesName:
         fields = getNewsFields(settings.BASE_DIR + "\\news\\" + fileName)

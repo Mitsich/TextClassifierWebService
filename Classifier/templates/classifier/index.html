@@ -1,28 +1,29 @@
 ﻿{% include 'classifier/header.html' %}
-
-    <div style="padding-top: 25px">
-        <div style="text-align: center">
+<main>
+<div class="alert alert-success" role="alert">
+  На данный момент система классифицирует текст по 5 категориям: Интернет и СМИ, Спорт, Экономика, Наука и техника и Культура.
+</div>
+    <div id = "classifier_div">
+        <div id="classifier_head">
             <h4>Классификатор текста</h4>
         </div>
 
-        <div style="text-align: center" class="form-group">
+        <div id="form_classification" class="form-group">
             <label for="exampleFormControlTextarea1">Введите текст для классификации</label>
-            <textarea  style="display: block;margin-left: auto;margin-right: auto;width: 800px" class="form-control"
-                       id="textForClassifier" rows="15"></textarea>
+            <textarea   class="form-control" id="textForClassifier" rows="12"></textarea>
         </div>
 
     </div>
 
-
-    <div style="text-align: center">
+    <div id="center_classif">
         <button type="button" onclick="classify()" class="btn btn-primary">Классифицировать</button>
 
     </div>
 <br>
 
-    <div style="text-align: center">
+    <div id="center_classif">
         <p hidden id="textForClassifierError"></p>
-        <p id="resultOfClassifier"></p>
+        <H5 id="resultOfClassifier"></H5>
 
 
        <p>Данные по классификатору: <a href="/api/info-classifier" class="link-primary">Клик</a></p>
@@ -30,15 +31,26 @@
     </div>
 
 
+</main>
+
+<footer class="navbar-dark bg-dark " id="footer_index">
+    <div id="center_classif">
+        <p id="year_index">2021 год</p>
+    </div>
+</footer>
 
 
 
-
+    <script src="/static/helpfunc.js"></script>
     <script src="/static/functionsForClassifier.js"></script>
-
+    <script defer type="text/javascript">
+     footer();
+    </script>
     <script defer type="text/javascript">
         recordInformationClassifierToTables();
     </script>
+
+
 
 </body>
 </html>
