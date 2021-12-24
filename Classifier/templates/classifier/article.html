@@ -1,6 +1,6 @@
 ﻿{% include 'classifier/header.html' %}
 <div class="alert alert-warning" role="alert">
-  Для того, чтобы удалить или обновить статью, вам необходимо потвердить изменения. Просто нажмить кнопку, которая Вам нужна - справа от нее нажмите на кнопку подтверждения.
+  Для того, чтобы удалить или обновить статью, вам необходимо потвердить изменения. Просто нажмите кнопку, которая Вам нужна - справа от нее нажмите на кнопку подтверждения.
 </div>
 
 <main>
@@ -52,33 +52,6 @@
     </main>
 
 
-      <footer class="navbar-dark bg-dark " style="position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Высота footer по умолчанию */
-  height: 30px;">
-
-    <div style="text-align: center;">
-        <p style="text-align: center;color:white;text-effect: emboss">2021 год</p>
-    </div>
-
-
-</footer>
-
-<script>
-    function footer() {
-    const
-        main = document.getElementsByTagName('main')[0],
-        footer = document.getElementsByTagName('footer')[0]
-
-    main.style.paddingBottom = footer.clientHeight + 'px'
-}
-
-window.addEventListener('load', footer);
-window.addEventListener('resize', footer);
-</script>
-
-
         <script>
             function updateMe() {
                 var source = document.getElementById('source');
@@ -104,9 +77,6 @@ window.addEventListener('resize', footer);
 
             }
         </script>
-
-
-
         <script>
             function hideMe() {
                 var loading = document.getElementById("myButton");
@@ -129,9 +99,6 @@ window.addEventListener('resize', footer);
 
 
         </script>
-
-
-
         <script src="/static/functionsForArticle.js"></script>
         <script defer>
             showArticle();

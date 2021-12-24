@@ -1,3 +1,5 @@
+import logging
+
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.html import escape
@@ -104,19 +106,26 @@ def articleOperations(request, articleId):
 
 @csrf_exempt
 def classifierEntryPoint(request):
-    if request.method == "GET":
-        fitInformation = TextClassifier.getClassifierInformation()
-        return HttpResponse(json.dumps(fitInformation), content_type="application/json")
-    else:
         if request.method == "POST":
             if request.content_type != "application/json":
                 return HttpResponse("unsupported media type", status=415)
 
             jsonForClassify = jsonChecks.checkJsonForClassifier(request.body)
             if jsonForClassify:
+                print(request)
                 classifierResult = TextClassifier.classifyArticle(jsonForClassify["text"])
+                print(jsonForClassify["text"])
+                print(HttpResponse(json.dumps(classifierResult), content_type="application/json"))
                 return HttpResponse(json.dumps(classifierResult), content_type="application/json")
             else:
                 return HttpResponse("bad request", status=400)
         else:
             return HttpResponse("method is not allowed", status=405)
+
+def update_model(request):
+    if request.method == "GET":
+        if request.content_type != "application/json":
+            TextClassifier.classifierFit()
+            return HttpResponse(json.dumps("Модель успешно обновлена."), content_type="application/json")
+        else:
+            return HttpResponse(json.dumps("Ошибка. Модель не обновлена."), content_type="application/json")

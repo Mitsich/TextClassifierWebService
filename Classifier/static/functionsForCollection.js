@@ -37,7 +37,7 @@ async function addArticle()
 
     let flagSuccess = true;
 
-    if (source.trim() != '')
+    if (source.trim() !== '')
     {
         if (source.length <= 200)
         {
@@ -93,10 +93,10 @@ async function addArticle()
 
     if (title.trim() != '')
     {
-        if (title.length > 1000)
+        if (title.length > 500)
         {
             elemTitleError.hidden = false;
-            elemTitleError.textContent = "Поле переполнено. Макс кол-во символов - 1000";
+            elemTitleError.textContent = "Поле переполнено. Макс кол-во символов - 500";
             flagSuccess = false;
         }
     }
@@ -109,10 +109,10 @@ async function addArticle()
 
     if (text.trim() != '')
     {
-        if (text.length > 20000)
+        if (text.length > 10000)
         {
             elemTextError.hidden = false;
-            elemTextError.textContent = "Поле переполнено. Макс кол-во символов - 20000";
+            elemTextError.textContent = "Поле переполнено. Макс кол-во символов - 10000";
             flagSuccess = false;
         }
     }
@@ -131,7 +131,9 @@ async function addArticle()
         }
     }
     else {
-        description = null;
+        elemDescriptionError.hidden = false;
+        elemDescriptionError.textContent = "Это поле является обязательным";
+        flagSuccess = false;
     }
 
     if (tags.trim() != '')
@@ -140,7 +142,7 @@ async function addArticle()
         let flagEmptyTag = false;
         let flagMaxChTag = false;
 
-        if (tagsList.length <= 10)
+        if (tagsList.length <= 8)
         {
             for (let i = 0; i < tagsList.length; i++)
             {
@@ -181,13 +183,15 @@ async function addArticle()
         else
         {
             elemTagsError.hidden = false;
-            elemTagsError.textContent = "Слишком много тегов. Макс кол-во тегов - 10";
+            elemTagsError.textContent = "Слишком много тегов. Макс кол-во тегов - 8";
             flagSuccess = false;
         }
     }
     else
     {
-        tags = null;
+        elemTagsError.hidden = false;
+        elemTagsError.textContent = "Это поле является обязательным";
+        flagSuccess = false;
     }
 
     if (flagSuccess)
@@ -212,19 +216,19 @@ async function addArticle()
 
         if (response.ok)
         {
-            elemResultAdd.textContent = "Новостная статья добавлена.";
+            elemResultAdd.textContent = "Новостная статья добавлена";
         }
         else
         {
-            elemResultAdd.textContent = "Новостная статья добавлена.";
+            elemResultAdd.textContent = "Новостная статья не добавилась. Попробуйте ещё раз";
         }
     }
 }
 
 function generatePageElementStr(page, text, data)
 {
-   let elemStr = "<button type=\"button\" class=\"btn btn-outline-primary\" style='margin-left: 20px' onclick='showArticlesOnPage(" + page.toString() + "," + JSON.stringify(data) + ")'>" + text + "</button>";
-   return elemStr;
+    let elemStr = "<button type=\"button\" class=\"btn btn-outline-primary\" style='margin-left: 20px' onclick='showArticlesOnPage(" + page.toString() + "," + JSON.stringify(data) + ")'>" + text + "</button>";
+    return elemStr;
 }
 
 function generatePagesButton(page, pageLimit, countArticles, data)
@@ -312,7 +316,7 @@ async function showArticlesOnPage(page, data)
             if ((new Date(dateStart)).getTime() > (new Date("9999-12-29")).getTime() || (new Date(dateStart)).getTime() < (new Date("0001-01-01")).getTime())
             {
                 elemDateStartError.hidden = false;
-                elemDateStartError.textContent = "Дата вышла из доп устимого диапазона";
+                elemDateStartError.textContent = "Дата вышла из допустимого диапазона";
                 flagSuccess = false;
             }
         }
@@ -498,7 +502,7 @@ async function showArticlesOnPage(page, data)
 
 function showArticlesPreview(articlesInformation, elemLen, elemArticles)
 {
-    elemLen.textContent = "Количество статей: " + articlesInformation.len.toString();
+    elemLen.textContent = "Количество статей по запросу: " + articlesInformation.len.toString();
     let articlesStr = "";
 
     for (let i = 0; i < articlesInformation.articles.length; i++)

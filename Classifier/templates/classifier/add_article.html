@@ -1,11 +1,12 @@
 {% include 'classifier/header.html' %}
 
-<div style = "margin-left: 20px; margin-top: 20px; width: 600px" >
+<div id="add_article">
         <h3>Форма добавлении статьи</h3>
+    <p>Все поля обязательны к заполнению.</p>
         <form  id="articleAdd">
-            <p>Ссылка на статью</p><p hidden id="sourceAddError"></p>
+            <p>Ссылка на статью</p><p hidden style="color: red" id="sourceAddError"></p>
             <input class="form-control" type="url" id="sourceAdd"/>
-            <p>Категория</p><p hidden id="categoryAddError"></p>
+            <p>Категория</p><p hidden style="color: red" id="categoryAddError"></p>
             <select class="form-control" id="categoryAdd">
                 <option>Спорт</option>
                 <option>Наука и техника</option>
@@ -13,19 +14,20 @@
                 <option>Экономика</option>
                 <option>Культура</option>
             </select>
-            <p>Дата публикации</p><p hidden id="datetimeAddError"></p>
+            <p>Дата публикации</p><p hidden style="color: red" id="datetimeAddError"></p>
             <input class="form-control" type="datetime" id="datetimeAdd" placeholder="yyyy-mm-dd HH:MM"/>
-            <p>Заголовок</p><p hidden id="titleAddError"></p>
+            <p>Заголовок</p><p hidden style="color: red" id="titleAddError"></p>
             <input class="form-control" type="text" id="titleAdd"/>
-            <p>Описание</p><p hidden id="descriptionAddError"></p>
+            <p>Описание</p><p hidden style="color: red" id="descriptionAddError"></p>
             <input class="form-control" type="text" id="descriptionAdd"/>
-            <p>Текст статьи</p><p hidden id="textAddError"></p>
+            <p>Текст статьи</p><p hidden style="color: red" id="textAddError"></p>
             <textarea class="form-control" cols="100" rows="8" id="textAdd"></textarea>
-            <p>Теги</p><p hidden id="tagsAddError"></p>
+            <p>Теги</p><p hidden style="color: red" id="tagsAddError"></p>
             <input class="form-control" type="text" id="tagsAdd"/>
         </form>
         <button   class="btn btn-primary" onclick="addArticle()">Добавить статью</button>
         <p id="resultAdd"></p>
+    <input type="button"  class="btn btn-outline-primary" style="text-align: left;margin-bottom: 20px"  onclick="history.back();" value="Назад"/>
     </div>
 
 

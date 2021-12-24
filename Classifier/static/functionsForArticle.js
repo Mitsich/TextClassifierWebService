@@ -3,6 +3,229 @@ function getArticleId() {
     return parseInt(pathUrl.slice(pathUrl.lastIndexOf('/') + 1));
 }
 
+async function addArticle()
+{
+    let elemSource = document.getElementById("sourceAdd");
+    let elemCategory = document.getElementById("categoryAdd");
+    let elemDatetime = document.getElementById("datetimeAdd");
+    let elemTitle = document.getElementById("titleAdd");
+    let elemDescription = document.getElementById("descriptionAdd");
+    let elemText = document.getElementById("textAdd");
+    let elemTags = document.getElementById("tagsAdd");
+
+    let elemSourceError = document.getElementById("sourceAddError");
+    let elemCategoryError = document.getElementById("categoryAddError");
+    let elemDatetimeError = document.getElementById("datetimeAddError");
+    let elemTitleError = document.getElementById("titleAddError");
+    let elemDescriptionError = document.getElementById("descriptionAddError");
+    let elemTextError = document.getElementById("textAddError");
+    let elemTagsError = document.getElementById("tagsAddError");
+
+    let elemResultAdd = document.getElementById("resultAdd");
+    elemResultAdd.textContent = "";
+
+    elemSourceError.hidden = true;
+    elemCategoryError.hidden = true;
+    elemDatetimeError.hidden = true;
+    elemTitleError.hidden = true;
+    elemDescriptionError.hidden = true;
+    elemTextError.hidden = true;
+    elemTagsError.hidden = true;
+
+    let source = elemSource.value;
+    let category = elemCategory.value;
+    let datetime = elemDatetime.value;
+    let title = elemTitle.value;
+    let description = elemDescription.value;
+    let text = elemText.value;
+    let tags = elemTags.value;
+
+    let flagSuccess = true;
+
+    if (source.trim() !== '')
+    {
+        if (source.length <= 200)
+        {
+            let regExpSource = /^(?:(?:https?|ftp|telnet):\/\/(?:[a-z0-9_-]{1,32}(?::[a-z0-9_-]{1,32})?@)?)?(?:(?:[a-z0-9-]{1,128}\.)+(?:com|net|org|mil|edu|arpa|ru|gov|biz|info|aero|inc|name|[a-z]{2})|(?!0)(?:(?!0[^.]|255)[0-9]{1,3}\.){3}(?!0|255)[0-9]{1,3})(?:\/[a-z0-9.,_@%&?+=\~\/-]*)?(?:#[^ \'\"&<>]*)?$/i;
+            if (!regExpSource.test(source))
+            {
+                elemSourceError.hidden = false;
+                elemSourceError.textContent = "Это не ссылка";
+                flagSuccess = false;
+            }
+        }
+        else
+        {
+            elemSourceError.hidden = false;
+            elemSourceError.textContent = "Поле переполнено. Макс кол-во символов - 200";
+            flagSuccess = false;
+        }
+    }
+    else
+    {
+        elemSourceError.hidden = false;
+        elemSourceError.textContent = "Это поле является обязательным";
+        flagSuccess = false;
+    }
+
+    if (datetime.trim() != '')
+    {
+        let regExpForDatetime = /^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}$/i;
+        if (regExpForDatetime.test(datetime))
+        {
+            let dateObject = new Date(datetime);
+            let dateStrNew = dateObject.getFullYear() + '-' + ('0' + (dateObject.getMonth() + 1)).slice(-2) + '-' + ('0' + dateObject.getDate()).slice(-2) + " " + ('0' + dateObject.getHours()).slice(-2) + ":" + ('0' + dateObject.getMinutes()).slice(-2);
+            if (dateStrNew != datetime)
+            {
+                elemDatetimeError.hidden = false;
+                elemDatetimeError.textContent = "Дата некорректна";
+                flagSuccess = false;
+            }
+        }
+        else
+        {
+            elemDatetimeError.hidden = false;
+            elemDatetimeError.textContent = "Формат даты некорректен";
+            flagSuccess = false;
+        }
+    }
+    else
+    {
+        elemDatetimeError.hidden = false;
+        elemDatetimeError.textContent = "Это поле является обязательным";
+        flagSuccess = false;
+    }
+
+    if (title.trim() != '')
+    {
+        if (title.length > 1000)
+        {
+            elemTitleError.hidden = false;
+            elemTitleError.textContent = "Поле переполнено. Макс кол-во символов - 1000";
+            flagSuccess = false;
+        }
+    }
+    else
+    {
+        elemTitleError.hidden = false;
+        elemTitleError.textContent = "Это поле является обязательным";
+        flagSuccess = false;
+    }
+
+    if (text.trim() != '')
+    {
+        if (text.length > 20000)
+        {
+            elemTextError.hidden = false;
+            elemTextError.textContent = "Поле переполнено. Макс кол-во символов - 20000";
+            flagSuccess = false;
+        }
+    }
+    else
+    {
+        elemTextError.hidden = false;
+        elemTextError.textContent = "Это поле является обязательным";
+        flagSuccess = false;
+    }
+
+    if (description.trim() != '') {
+        if (description.length > 1000) {
+            elemDescriptionError.hidden = false;
+            elemDescriptionError.textContent = "Поле переполнено. Макс кол-во символов - 1000";
+            flagSuccess = false;
+        }
+    }
+    else {
+        description = null;
+    }
+
+    if (tags.trim() != '')
+    {
+        let tagsList = tags.split(',');
+        let flagEmptyTag = false;
+        let flagMaxChTag = false;
+
+        if (tagsList.length <= 10)
+        {
+            for (let i = 0; i < tagsList.length; i++)
+            {
+                tagsList[i] = tagsList[i].trim();
+                if (tagsList[i] != '')
+                {
+                    if (tagsList[i].length > 50)
+                    {
+                        flagMaxChTag = true;
+                    }
+                }
+                else
+                {
+                    flagEmptyTag = true;
+                }
+            }
+
+            if (flagEmptyTag)
+            {
+                elemTagsError.hidden = false;
+                elemTagsError.textContent = "Пустой тег";
+                flagSuccess = false;
+            }
+            else
+            {
+                if (flagMaxChTag)
+                {
+                    elemTagsError.hidden = false;
+                    elemTagsError.textContent = "Тег слишком длинный. Макс кол-во символов - 50";
+                    flagSuccess = false;
+                }
+                else
+                {
+                    tags = tagsList;
+                }
+            }
+        }
+        else
+        {
+            elemTagsError.hidden = false;
+            elemTagsError.textContent = "Слишком много тегов. Макс кол-во тегов - 10";
+            flagSuccess = false;
+        }
+    }
+    else
+    {
+        tags = null;
+    }
+
+    if (flagSuccess)
+    {
+        let data = {
+            source: source,
+            category: category,
+            datetime: datetime,
+            title: title,
+            description: description,
+            text: text,
+            tags: tags
+        };
+
+        let response = await fetch('/api/articles', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (response.ok)
+        {
+            elemResultAdd.textContent = "Новостная статья добавлена";
+        }
+        else
+        {
+            elemResultAdd.textContent = "Новостная статья не добавилась. Попробуйте ещё раз";
+        }
+    }
+}
+
 async function deleteArticle() {
     let articleId = getArticleId();
     let urlForFetch = '/api/articles/' + articleId.toString();

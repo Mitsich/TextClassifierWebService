@@ -33,7 +33,7 @@ def checkJsonForUpdateOrAddArticle(data):
 
     if isinstance(jsonForUpdateOrAdd["category"], str):
         if jsonForUpdateOrAdd["category"].strip():
-            listOfCategory = ["В России", "В мире", "Экономика", "Спорт", "Культура", "Москва"]
+            listOfCategory = ["Спорт", "Наука и техника", "Интернет и СМИ", "Экономика", "Культура"]
             if not (jsonForUpdateOrAdd["category"] in listOfCategory):
                 return False
         else:

@@ -1,6 +1,6 @@
 ﻿{% include 'classifier/header.html' %}
 <main>
-<div class="alert alert-success" role="alert">
+<div id ="alert-index" class="alert alert-success" role="alert">
   На данный момент система классифицирует текст по 5 категориям: Интернет и СМИ, Спорт, Экономика, Наука и техника и Культура.
 </div>
     <div id = "classifier_div">
@@ -10,7 +10,7 @@
 
         <div id="form_classification" class="form-group">
             <label for="exampleFormControlTextarea1">Введите текст для классификации</label>
-            <textarea   class="form-control" id="textForClassifier" rows="12"></textarea>
+            <textarea   class="form-control" id="textForClassifier" rows="16"></textarea>
         </div>
 
     </div>
@@ -23,11 +23,7 @@
 
     <div id="center_classif">
         <p hidden id="textForClassifierError"></p>
-        <H5 id="resultOfClassifier"></H5>
-
-
-       <p>Данные по классификатору: <a href="/api/info-classifier" class="link-primary">Клик</a></p>
-
+        <H5 style="padding-bottom: 5px" id="resultOfClassifier"></H5>
     </div>
 
 
@@ -46,12 +42,8 @@
     <script defer type="text/javascript">
      footer();
     </script>
-    <script defer type="text/javascript">
-        recordInformationClassifierToTables();
-    </script>
 
 
 
 </body>
 </html>
-

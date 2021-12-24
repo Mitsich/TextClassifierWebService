@@ -1,19 +1,3 @@
-async function getInformationClassifier()
-{
-    let response = await fetch('/api/classifier', {
-        method: 'GET'
-    });
-
-    let fitInformation = "Error";
-
-    if (response.ok)
-    {
-        fitInformation = await response.json();
-    }
-
-    return fitInformation;
-}
-
 
 
 async function classify()
@@ -26,7 +10,7 @@ async function classify()
     elemTextForClassifierError.hidden = true;
     elemResult.textContent = "";
 
-    if (textForClassifier.trim() != '')
+    if (textForClassifier.trim() !== '')
     {
         if (textForClassifier.length <= 30000)
         {

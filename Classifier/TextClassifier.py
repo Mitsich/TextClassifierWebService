@@ -12,7 +12,6 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 from pymystem3 import Mystem
-from TextClassifierWebService import settings
 from Classifier import apps as fileClassifier
 import pickle
 
@@ -56,7 +55,7 @@ def stemming_text(text):
 
 
 def classifierFit():
-    data = pd.read_csv('data.csv')
+    data = pd.read_csv('dataset/data.csv')
     # Читаем текст и категории из файла
     X = data['text_stem']
     y = data['topic']
@@ -70,7 +69,7 @@ def classifierFit():
                      SGDClassifier(loss='hinge', penalty='l2', alpha=1e-3, random_state=42, max_iter=5, tol=None)),
                     ])
 
-
+    print("Обучение модели")
     sgd.fit(X_train, y_train)
 
     with open('model/model.pkl', 'wb') as f:
@@ -81,17 +80,11 @@ def classifierFit():
     print("Точность работы классификатора загружена в файл: classification_report.txt")
     accuracy = accuracy_score(y_pred, y_test)
     report = classification_report(y_test, y_pred, target_names=category)
-    f1 = open("classification_report.txt", 'w', encoding='utf-8')
+    f1 = open("classificationReport/classification_report.txt", 'w', encoding='utf-8')
     f1.write('***Данные по классификатору***\n')
     f1.write('Точность работы классификатора: %s \n' % accuracy)
     f1.write(report)
 
-
-def getClassifierInformation():
-    f = open('classification_report.txt', 'r')
-    file_content = f.read()
-    f.close()
-    return HttpResponse(file_content, content_type="text/plain")
 
 def classifyArticle(text):
     classifierResult = {}
@@ -102,3 +95,4 @@ def classifyArticle(text):
     classifierResult["category"] = numberOfCategory
 
     return classifierResult
+
